@@ -11,20 +11,20 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <TodoList items={todos}/>
+        <TodoApp />
+        {/* <p>
           &lt;h2&gt; TODO React App &lt;/h2&gt;
-        </p>
-        <a
+        </p> */}
+        {/* <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
-      <TodoList items={todos}/>
-      <TodoApp />
     </div>
   );
 }
